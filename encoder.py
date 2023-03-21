@@ -1,6 +1,4 @@
-stored_encoded_password = ''
-
-
+#Jose Rubiera Perez
 def encode_password(string_data):
     encoded_password = ''
     for digit in string_data:

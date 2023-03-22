@@ -1,3 +1,6 @@
+#Kaiden Joy
+import decoder
+
 #Jose Rubiera Perez
 def encode_password(string_data):
     encoded_password = ''
@@ -23,5 +26,7 @@ if __name__ == '__main__':
             print('Your password has been encoded and stored!')
         elif user_input == 2:
 #decode 'encoded_password'
+            decoded_password = decoder.decode_password(encoded_password)
+            print(f'The encoded password is {encoded_password}, and the original password is {decoded_password}')
         elif user_input == 3:
             run = False
